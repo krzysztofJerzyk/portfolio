@@ -9,10 +9,14 @@
   <body>
     <main>
       <header>
-        <img class="logo" src="./images/logo.svg" alt="" />
-        <p class="name">Krzysztof Jerzyk</p>
-        <p class="position">Frontend developer</p>
-        <nav>
+        <div class="contain-logo">
+          <img class="logo" src="./images/logo.svg" alt="" />
+          <div>
+            <p class="name">Krzysztof Jerzyk</p>
+            <p class="position">Frontend developer</p>
+          </div>
+        </div>
+        <nav class="navigation">
           <ul>
             <li><a href="#">About</a></li>
             <li><a href="#">Skills</a></li>
@@ -22,66 +26,81 @@
           </ul>
         </nav>
       </header>
-      <section id="about">
-        <h1>
-          My name is Maciek and I'm an aspiring Frontend developer and a keen
-          Star Wars fan.
+      <section id="about" class="section-about">
+        <img
+          class="image"
+          src="./images/krzysztofjerzyk.png"
+          alt="Krzysztof Jerzyk."
+        />
+        <h1 class="main__header">
+          My name is Krzysztof and I'm an aspiring
+          <span class="special-color">Frontend developer</span> and a keen Star
+          Wars fan.
         </h1>
-        <p>
-          You might be interested in checking the list of my skills. Don't
-          forget to have a glimpse at my projects. I'm looking for a new
-          challenges so if you have one - contact me 😊
+        <p class="section__paragraph">
+          You might be interested in checking the list of my
+          <a href="#skills">skills</a>. Don't forget to have a glimpse at my
+          <a href="#project">projects</a>. I'm looking for a new challenges so
+          if you have one - <a href="#contact">contact me</a>
         </p>
-        <a href="#">Get in touch</a>
-        <a href="#">Get to know me</a>
+        <div class="section__button">
+          <a class="section__link" href="#"
+            ><img src="./images/chat.svg" />Get in touch</a
+          >
+          <a class="section__link section__link--special" href="#"
+            ><img src="./images/profile.svg" />Get to know me</a
+          >
+        </div>
       </section>
       <section id="skills">
-        <h2>MY SKILLS</h2>
-        <p>
+        <h2 class="section__header">MY SKILLS</h2>
+        <p class="section__paragraph--special">
           I've picked up some cool skills along the way, and I'm excited to
           share them with you. Check out what I can do below!
         </p>
-        <article>
-          <img src="./images/ractangle.svg" alt="" />
-          <h3>Working knowledge</h3>
-          <ul>
-            <li>— Semantic HTML5</li>
-            <li>— Flexbox</li>
-            <li>— Markdown</li>
-            <li>— JS: Local storage</li>
-            <li>— Figma</li>
-            <li>— CSS grid</li>
-            <li>— Forms</li>
-            <li>— JS: DOM manipulations</li>
-            <li>— SASS</li>
-          </ul>
-        </article>
-        <article>
-          <img src="./images/circle.svg" alt="" />
-          <h3>Know something about</h3>
-          <ul>
-            <li>— JavaScript ES6 + features</li>
-            <li>— CSS animations</li>
-            <li>— Working with API</li>
-            <li>— NPM Scripts</li>
-            <li>— PWA</li>
-            <li>— Git</li>
-            <li>— Accessibility</li>
-          </ul>
-        </article>
-        <article>
-          <img src="./images/cube.svg" alt="" />
-          <h3>Want to learn</h3>
-          <ul>
-            <li>— React</li>
-            <li>— Node</li>
-            <li>— Electron</li>
-            <li>— SSR</li>
-            <li>— TypeScript</li>
-            <li>— Gatsby</li>
-            <li>— WebSockets</li>
-          </ul>
-        </article>
+        <div class="container__skills">
+          <article>
+            <img class="article__image" src="./images/ractangle.svg" alt="" />
+            <h3 class="article__header">Working knowledge</h3>
+            <ul>
+              <li>— Semantic HTML5</li>
+              <li>— Flexbox</li>
+              <li>— Markdown</li>
+              <li>— JS: Local storage</li>
+              <li>— Figma</li>
+              <li>— CSS grid</li>
+              <li>— Forms</li>
+              <li>— JS: DOM manipulations</li>
+              <li>— SASS</li>
+            </ul>
+          </article>
+          <article>
+            <img src="./images/circle.svg" alt="" />
+            <h3>Know something about</h3>
+            <ul>
+              <li>— JavaScript ES6 + features</li>
+              <li>— CSS animations</li>
+              <li>— Working with API</li>
+              <li>— NPM Scripts</li>
+              <li>— PWA</li>
+              <li>— Git</li>
+              <li>— Accessibility</li>
+            </ul>
+          </article>
+          <article>
+            <img src="./images/cube.svg" alt="" />
+            <h3>Want to learn</h3>
+            <ul>
+              <li>— React</li>
+              <li>— Node</li>
+              <li>— Electron</li>
+              <li>— SSR</li>
+              <li>— TypeScript</li>
+              <li>— Gatsby</li>
+              <li>— WebSockets</li>
+            </ul>
+          </article>
+        </div>
       </section>
       <section id="projects">
         <h2>Recent Projects</h2>
@@ -115,7 +134,7 @@
           after-hours.
         </p>
         <article>
-          <img src="./images/vossloh.png" alt="" />
+          <img class="image" src="./images/vossloh.png" alt="" />
           <h3>Praca ocecna</h3>
           <p>
             Outside of my regular working hours, I immerse myself in the
@@ -123,7 +142,7 @@
           </p>
         </article>
         <article>
-          <img src="./images/rower.png" alt="" />
+          <img class="image" src="./images/rower.png" alt="" />
           <h3>Rower</h3>
           <p>
             Outside of my regular working hours, I immerse myself in the
@@ -131,7 +150,7 @@
           </p>
         </article>
         <article>
-          <img src="./images/triathlon.png" alt="" />
+          <img class="image" src="./images/triathlon.png" alt="" />
           <h3>Triathlon</h3>
           <p>
             Outside of my regular working hours, I immerse myself in the
@@ -139,13 +158,27 @@
           </p>
         </article>
         <article>
-          <img src="./images/siłownia.png" alt="" />
+          <img class="image" src="./images/siłownia.png" alt="" />
           <h3>Gym</h3>
           <p>
             Outside of my regular working hours, I immerse myself in the
             pulsating rhythms and innovative sounds of electronic music
           </p>
         </article>
+      </section>
+      <section id="contact">
+        <h2>Let's work together</h2>
+        <p>
+          I'm open for new opportunities. <br />If you have one for me we should
+          talk!
+        </p>
+        <a href="mailto:jerzyk.krzysztof.1993@gmail.com"
+          >jerzyk.krzysztof.1993@gmail.com</a
+        >
+        <p>or find me on</p>
+        <ul>
+          <li></li>
+        </ul>
       </section>
     </main>
   </body>
