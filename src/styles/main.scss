@@ -127,6 +127,18 @@ p {
 
 }
 
+.section__link-small{
+    color: #020916;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.section__link-big-padding{
+    padding: 0.875rem 2rem;
+}
+
 .section__button{
     display: flex;
     flex-direction: column;
@@ -295,6 +307,11 @@ ul li{
     height: 1.5rem;
 }
 
+.special-size-small{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
 .section__small{
     font-size: 1rem;
 
@@ -315,4 +332,61 @@ ul li{
     font-style: normal;
     font-weight: 400;
     line-height: 1.5rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__header{
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.04rem;
+    margin: 0 0 1rem 0;
+}
+
+.contact__paragraph{
+    color: $grey;
+    text-align: center;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 2.5rem;
+}
+.contact__paragraph--special{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.margin-bottom{
+    margin-bottom: 2.5rem;
+}
+
+
+.contact-image-container{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background: linear-gradient(155deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.04) 100.02%);
+    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.15) inset;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cantainer-contact-list{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
