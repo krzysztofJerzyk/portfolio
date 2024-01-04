@@ -73,6 +73,10 @@ p {
     margin-bottom: 1.25rem;
 }
 
+.image-extra-margin{
+    margin-bottom: 1.5rem;
+}
+
 .main__header{
     font-size: 1.5rem;
     font-weight: 700;
@@ -105,6 +109,8 @@ p {
 
 .section__link{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 0.75rem;
     font-weight: bold;
     padding: 0.5rem 1rem;
@@ -133,7 +139,7 @@ p {
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.125rem; /* 90% */
+    line-height: 1.5rem; /* 90% */
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     margin-top: 0;
@@ -156,11 +162,8 @@ ul li{
     padding-bottom: 8px;
 }
 
-ul li:last-child{
-    padding: 0;
-}
 
-article {
+.article-container {
     padding: 1.25rem;
     border-radius: 0.625rem;
     border: 0.1rem solid #020916;
@@ -188,4 +191,128 @@ article {
 .container__skills{
     display: grid;
     gap: 1rem;
+}
+
+.container__skills-extragap{
+    gap: 3.75rem;
+}
+
+.extra-margin {
+    margin-bottom: 7.5rem;
+}
+
+.article-window{
+    padding: 0;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+    border: 1px solid #020916;
+    backdrop-filter: blur(5px);
+}
+
+.div-container{
+    height: 2.75rem;
+    border-bottom: 1px solid #020916;
+    background: linear-gradient(155deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.04) 100.02%);
+    padding: 1rem;
+    display: flex;
+    gap: 0.375rem;
+}
+
+.circle{
+    height: 0.75rem;
+    width: 0.75rem;
+    border-radius: 50%;
+    opacity: 0.5;
+    background-color: $background;
+    display: block;
+
+}
+
+.padding{
+    padding: 1.25rem;
+}
+
+.header-card{
+    margin:0;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.flex-header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.paragraph-with-flex{
+    display: flex;
+    gap: 0.125rem;
+    padding: 0.25rem 0.5rem;
+    background: rgba(156, 163, 175, 0.10);
+    align-items: center;
+    color: $grey;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1rem;
+    border-radius: 0.25rem;
+}
+
+.small-padding{
+    padding: 0 0 1rem 0;
+}
+
+.paragraph-card{
+    color: $grey;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.card-technology{
+    display: flex;
+    gap: 0.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.card-technology-element{
+    color: white;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.125rem;
+    padding: 0.25rem 0.5rem;
+    background: rgba(156, 163, 175, 0.10);
+    border-radius: 0.25rem;
+}
+
+.special-size{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.section__small{
+    font-size: 1rem;
+
+}
+
+.header-after-hours{
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: -0.03rem;
+    margin: 0 0 0.25rem 0;
+}
+
+.paragraph-after-hours{
+    color: $grey;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
 }

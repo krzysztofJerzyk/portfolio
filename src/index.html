@@ -45,21 +45,22 @@
         </p>
         <div class="section__button">
           <a class="section__link" href="#"
-            ><img src="./images/chat.svg" />Get in touch</a
+            ><img class="special-size" src="./images/chat.svg" />Get in touch</a
           >
           <a class="section__link section__link--special" href="#"
-            ><img src="./images/profile.svg" />Get to know me</a
+            ><img class="special-size" src="./images/profile.svg" />Get to know
+            me</a
           >
         </div>
       </section>
-      <section id="skills">
+      <section class="extra-margin" id="skills">
         <h2 class="section__header">MY SKILLS</h2>
         <p class="section__paragraph--special">
           I've picked up some cool skills along the way, and I'm excited to
           share them with you. Check out what I can do below!
         </p>
         <div class="container__skills">
-          <article>
+          <article class="article-container">
             <img class="article__image" src="./images/ractangle.svg" alt="" />
             <h3 class="article__header">Working knowledge</h3>
             <ul>
@@ -74,7 +75,7 @@
               <li>— SASS</li>
             </ul>
           </article>
-          <article>
+          <article class="article-container">
             <img src="./images/circle.svg" alt="" />
             <h3>Know something about</h3>
             <ul>
@@ -87,7 +88,7 @@
               <li>— Accessibility</li>
             </ul>
           </article>
-          <article>
+          <article class="article-container">
             <img src="./images/cube.svg" alt="" />
             <h3>Want to learn</h3>
             <ul>
@@ -102,69 +103,112 @@
           </article>
         </div>
       </section>
-      <section id="projects">
-        <h2>Recent Projects</h2>
-        <p>
+      <section id="projects" class="extra-margin">
+        <h2 class="section__header">Recent Projects</h2>
+        <p class="section__paragraph--special">
           Since diving into frontend development in 2023, I've brought a range
           of projects to life. Here's a snapshot of my accomplishments so far.
         </p>
-        <article>
-          <h3>simple-editor</h3>
-          <img src="./images/star.svg" alt="" />
-          <p>27</p>
-          <p>
-            Phasellus dolor. In dui magna, posuere eget, vestibulum et, tempor
-            auctor, justo fringilla mauris sit amet nibh. Suspendisse pulvinar,
-            augue ac venenatis condimentum, sem libero volutpat...
-          </p>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-          </ul>
-          <a href="#">View demo</a>
-          <a href="#">Source code</a>
-        </article>
+        <div class="container__skills">
+          <article class="article-container article-window">
+            <div class="div-container">
+              <span class="circle"></span>
+              <span class="circle"></span>
+              <span class="circle"></span>
+            </div>
+            <div class="padding">
+              <header class="flex-header small-padding">
+                <h3 class="header-card">simple-editor</h3>
+                <p class="paragraph-with-flex">
+                  <img src="./images/star.svg" alt="" />27
+                </p>
+              </header>
+              <p class="paragraph-card">
+                Phasellus dolor. In dui magna, posuere eget, vestibulum et,
+                tempor auctor, justo fringilla mauris sit amet nibh. Suspendisse
+                pulvinar, augue ac venenatis condimentum, sem libero volutpat...
+              </p>
+              <ul class="card-technology">
+                <li class="card-technology-element">HTML</li>
+                <li class="card-technology-element">CSS</li>
+                <li class="card-technology-element">CSS</li>
+                <li class="card-technology-element">CSS</li>
+              </ul>
+              <div class="section__button">
+                <a
+                  href="#"
+                  class="section__link section__link--special section__small"
+                  ><img class="special-size" src="./images/demo.svg" />View
+                  demo</a
+                >
+                <a
+                  href="#"
+                  class="section__link section__link--special section__small"
+                  ><img class="special-size" src="./images/github2.svg" />Source
+                  code</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
       </section>
       <section>
-        <h2>AFTER HOURS</h2>
-        <p>
+        <h2 class="section__header">AFTER HOURS</h2>
+        <p class="section__paragraph--special">
           Outside of my regular working hours, I delve into an array of
           activities and passions. Here's a glimpse into how I spend my
           after-hours.
         </p>
-        <article>
-          <img class="image" src="./images/vossloh.png" alt="" />
-          <h3>Praca ocecna</h3>
-          <p>
-            Outside of my regular working hours, I immerse myself in the
-            pulsating rhythms and innovative sounds of electronic music
-          </p>
-        </article>
-        <article>
-          <img class="image" src="./images/rower.png" alt="" />
-          <h3>Rower</h3>
-          <p>
-            Outside of my regular working hours, I immerse myself in the
-            pulsating rhythms and innovative sounds of electronic music
-          </p>
-        </article>
-        <article>
-          <img class="image" src="./images/triathlon.png" alt="" />
-          <h3>Triathlon</h3>
-          <p>
-            Outside of my regular working hours, I immerse myself in the
-            pulsating rhythms and innovative sounds of electronic music
-          </p>
-        </article>
-        <article>
-          <img class="image" src="./images/siłownia.png" alt="" />
-          <h3>Gym</h3>
-          <p>
-            Outside of my regular working hours, I immerse myself in the
-            pulsating rhythms and innovative sounds of electronic music
-          </p>
-        </article>
+        <div class="container__skills container__skills-extragap">
+          <article>
+            <img
+              class="image image-extra-margin"
+              src="./images/vossloh.png"
+              alt=""
+            />
+            <h3 class="header-after-hours">Praca ocecna</h3>
+            <p class="paragraph-after-hours">
+              Outside of my regular working hours, I immerse myself in the
+              pulsating rhythms and innovative sounds of electronic music
+            </p>
+          </article>
+          <article>
+            <img
+              class="image image-extra-margin"
+              src="./images/rower.png"
+              alt=""
+            />
+            <h3 class="header-after-hours">Rower</h3>
+            <p class="paragraph-after-hours">
+              Outside of my regular working hours, I immerse myself in the
+              pulsating rhythms and innovative sounds of electronic music
+            </p>
+          </article>
+          <article>
+            <img
+              class="image image-extra-margin"
+              src="./images/triathlon.png"
+              alt=""
+            />
+            <h3 class="header-after-hours">Triathlon</h3>
+            <p class="paragraph-after-hours">
+              Outside of my regular working hours, I immerse myself in the
+              pulsating rhythms and innovative sounds of electronic music
+            </p>
+          </article>
+          <article>
+            <img
+              class="image image-extra-margin"
+              src="./images/siłownia.png"
+              alt=""
+            />
+            <h3 class="header-after-hours">Gym</h3>
+            <p class="paragraph-after-hours">
+              Outside of my regular working hours, I immerse myself in the
+              pulsating rhythms and innovative sounds of electronic music
+            </p>
+          </article>
+        </div>
       </section>
       <section id="contact">
         <h2>Let's work together</h2>
