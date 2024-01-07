@@ -21,36 +21,47 @@
             <li><a href="#">About</a></li>
             <li><a href="#">Skills</a></li>
             <li><a href="#">Projects</a></li>
-            <li><a download href="#">Resume</a></li>
-            <li><a href="#">Contact</a></li>
+            <li>
+              <a class="button-flex" download href="#"
+                ><img src="./images/download.svg" />Resume</a
+              >
+            </li>
+            <li>
+              <a class="section__link-contact" href="#">Contact</a>
+            </li>
           </ul>
         </nav>
       </header>
       <section id="about" class="section-about">
         <img
-          class="image"
+          class="image image-about"
           src="./images/krzysztofjerzyk.png"
           alt="Krzysztof Jerzyk."
         />
-        <h1 class="main__header">
-          My name is Krzysztof and I'm an aspiring
-          <span class="special-color">Frontend developer</span> and a keen Star
-          Wars fan.
-        </h1>
-        <p class="section-about__paragraph">
-          You might be interested in checking the list of my
-          <a href="#skills">skills</a>. Don't forget to have a glimpse at my
-          <a href="#project">projects</a>. I'm looking for a new challenges so
-          if you have one - <a href="#contact">contact me</a>
-        </p>
-        <div class="section__button">
-          <a class="section__link" href="#"
-            ><img class="special-size" src="./images/chat.svg" />Get in touch</a
-          >
-          <a class="section__link section__link--special" href="#"
-            ><img class="special-size" src="./images/profile.svg" />Get to know
-            me</a
-          >
+        <div class="about-contain">
+          <h1 class="main__header">
+            My name is Krzysztof and I'm an aspiring
+            <span class="special-color">Frontend developer</span> and a keen
+            Star Wars fan.
+          </h1>
+          <p class="section-about__paragraph">
+            You might be interested in checking the list of my
+            <a href="#skills">skills</a>. Don't forget to have a glimpse at my
+            <a href="#project">projects</a>. I'm looking for a new challenges so
+            if you have one - <a href="#contact">contact me</a>
+          </p>
+          <div class="section__button">
+            <a class="section__link section__link--biger-border" href="#"
+              ><img class="special-size" src="./images/chat.svg" />Get in
+              touch</a
+            >
+            <a
+              class="section__link section__link--special section__link--biger-border"
+              href="#"
+              ><img class="special-size" src="./images/profile.svg" />Get to
+              know me</a
+            >
+          </div>
         </div>
       </section>
       <section class="extra-margin" id="skills">

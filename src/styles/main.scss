@@ -22,7 +22,9 @@ html {
 main {
     padding: 0 1rem;
     max-width: 82rem;
+
 }
+
 
 a {
     color: white;
@@ -32,7 +34,8 @@ a {
 body {
     background-color: $background;
     color: white;
-
+    display: flex;
+    justify-content: center;
 }
 
 section{
@@ -75,4 +78,22 @@ ul li{
 
 .section__small{
     font-size: 1rem;
+}
+
+@media screen and (min-width: 768px){
+    .navigation ul {
+        display: flex;
+        gap: 2.5rem;
+        align-items: center;
+    }
+    .navigation ul li {
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.25rem;
+        padding: 0;
+    }
+    main{
+        padding: 0 4rem;
+     }
 }

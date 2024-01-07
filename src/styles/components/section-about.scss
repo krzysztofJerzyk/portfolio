@@ -22,3 +22,41 @@
 .special-color{
     color: $special;
 }
+
+@media screen and (min-width: 768px){
+    .about-contain{
+        max-width: 47rem;
+    }
+    .section-about{
+        display: flex;
+        gap: 4rem;
+        padding: 7.5rem 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .image-about{
+        order: 2;
+        width: 26rem;
+    }
+    .main__header{
+        font-size: 1.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.25rem; /* 133.333% */
+        letter-spacing: -0.06rem;
+    }
+    .section-about__paragraph{
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 2rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .main__header{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+}

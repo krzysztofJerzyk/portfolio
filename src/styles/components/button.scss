@@ -18,7 +18,6 @@
     font-size: 1.25rem;
     line-height: 2rem;
 }
-
 .special-size{
     width: 1.5rem;
     height: 1.5rem;
@@ -29,4 +28,24 @@
     color: $special;
     border: 0.125rem solid #1F2937;
 
+}
+
+@media screen and (min-width: 768px){
+    .button-flex{
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    .section__link{
+        padding: 0.875rem 2rem;
+    }
+    .section__button{
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .section__link--biger-border{
+        border-radius: 1.25rem;
+    }
 }

@@ -27,6 +27,30 @@
     letter-spacing: 0.05rem;
 }
 
-.navigation {
+.navigation{
     display: none;
+}
+
+@media screen and (min-width: 768px){
+    .header{
+        padding: 24px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+    .navigation{
+        display: inline-block;
+    }
+    .section__link-contact{
+        color: #020916;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.25rem;
+        border-radius: 0.75rem;
+        background-color: $special;
+        padding: 0.813rem 2rem;
+    }
+
 }
