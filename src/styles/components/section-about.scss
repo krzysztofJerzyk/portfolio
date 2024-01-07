@@ -1,0 +1,24 @@
+.image{
+    width: 100%;
+    margin-bottom: 1.25rem;
+}
+
+.main__header{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem; /* 133.333% */
+    letter-spacing: -0.02rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.section-about__paragraph{
+    font-size: 1rem;/* 133.333% */
+    color: $grey;
+    margin-bottom: 2rem;
+    font-weight: normal;
+}
+
+.special-color{
+    color: $special;
+}
