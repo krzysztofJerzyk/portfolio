@@ -58,3 +58,18 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (min-width:768px){
+    .contact__header{
+        font-size: 2.5rem;
+        line-height: 3rem;
+        letter-spacing: -0.05rem;
+    }
+    .contact__paragraph{
+        font-size:1.5rem;
+        line-height: 2rem;
+    }
+    .margin-bottom{
+        margin-bottom: 5rem;
+    }
+}

@@ -34,6 +34,10 @@
     padding: 1rem 1.25rem;
 }
 
+.section__link-radius{
+    border-radius: 1.5rem;
+}
+
 @media screen and (min-width: 768px){
     .button-flex{
         display: flex;
@@ -54,5 +58,9 @@
     }
     .section__link-special-padding{
         padding: 1rem 1.25rem;
+    }
+    .section__link-normal{
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
 }
