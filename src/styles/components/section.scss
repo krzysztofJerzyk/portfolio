@@ -29,6 +29,11 @@
     gap: 1rem;
 }
 
+.container__projects{
+    display: grid;
+    gap: 1rem;
+}
+
 @media screen and (min-width:768px){
     .extra-margin {
         margin-top: 15rem;
@@ -46,4 +51,8 @@
         gap: 1rem;
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
+    .container__projects{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
 }

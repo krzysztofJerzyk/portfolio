@@ -95,10 +95,20 @@
     border-radius: 0.25rem;
 }
 
-
+@media screen and (min-width:768px){
+    .article-container-radius-bigger{
+        border-radius: 1.25rem;
+    }
+}
 
 @media screen and (min-width:1024px){
     .article-container{
         padding: 2.5rem;
+    }
+    .padding{
+        padding: 2.5rem;
+    }
+    .article-container-remove-padding{
+        padding: 0;
     }
 }
