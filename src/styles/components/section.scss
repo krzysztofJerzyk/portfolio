@@ -28,3 +28,22 @@
     display: grid;
     gap: 1rem;
 }
+
+@media screen and (min-width:768px){
+    .extra-margin {
+        margin-top: 15rem;
+    }
+    .section__paragraph--special{
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 3rem; /* 120% */
+        letter-spacing: -0.05rem;
+        margin-bottom: 5rem;
+    }
+    .container__skills{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
