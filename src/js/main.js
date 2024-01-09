@@ -30,7 +30,7 @@ fetch(`http://api.github.com/users/${userName}/repos?direction=${direction}`)
           <header class="flex-header small-padding">
             <h3 class="header-card">${name}</h3>
             <p class="paragraph-with-flex">
-              <img src="${star}" alt="" />27</p>
+              <img src="${star}" alt="" />${stargazers_count}</p>
           </header>
           <p class="paragraph-card">
             ${description}
@@ -41,12 +41,16 @@ fetch(`http://api.github.com/users/${userName}/repos?direction=${direction}`)
           <div class="section__button">
             <a
               href="${homepage}"
+              target="_blank"
+              rel="noreferrer nofollow"
               class="section__link section__link--special section__small section__link-special-padding"
               ><img class="special-size" src="${demo}" />View
               demo</a
             >
             <a
               href="${html_url}"
+              target="_blank"
+              rel="noreferrer nofollow"
               class="section__link section__link--special section__small section__link-special-padding"
               ><img class="special-size" src="${github}" />Source
               code</a
@@ -54,7 +58,9 @@ fetch(`http://api.github.com/users/${userName}/repos?direction=${direction}`)
           </div>
         </div>
         </article>`
+
         projectContainer.insertAdjacentHTML('afterbegin', element)
+
     }
 })
 .catch((e) => console.log(e))
