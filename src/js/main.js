@@ -36,6 +36,10 @@ fetch(`http://api.github.com/users/${userName}/repos?direction=${direction}`)
             ${description}
           </p>
           <ul class="card-technology">
+           <li class="card-technology-element">CSS</li>
+           <li class="card-technology-element">javascript</li>
+           <li class="card-technology-element">mysql</li>
+           <li class="card-technology-element">framework vue</li>
             ${tags}
           </ul>
           <div class="section__button">
