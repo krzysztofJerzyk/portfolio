@@ -33,11 +33,21 @@
         </nav>
       </header>
       <section id="about" class="section-about">
-        <img
-          class="image-main"
-          src="./images/krzysztofjerzyk.png"
-          alt="Krzysztof Jerzyk."
-        />
+        <picture class="picture">
+          <source
+            srcset="./images/krzysztofjerzyk.png?as=avif&width=416"
+            type="image/avif"
+          />
+          <source
+            srcset="./images/krzysztofjerzyk.png?as=webp&width=416"
+            type="image/webp"
+          />
+          <img
+            class="image-main"
+            src="./images/krzysztofjerzyk.png"
+            alt="Photo by Krzysztof Jerzyk"
+          />
+        </picture>
         <div class="about-contain">
           <h1 class="main__header">
             My name is Krzysztof and I'm an aspiring
@@ -58,8 +68,9 @@
             <a
               class="section__link section__link--special section__link--biger-border"
               href="#after-hours"
-              ><img class="special-size" src="./images/profile.svg" />Get to
-              know me</a
+            >
+              <img class="special-size" src="./images/profile.svg" />Get to know
+              me</a
             >
           </div>
         </div>
@@ -134,11 +145,33 @@
         </p>
         <div class="container__after-hours">
           <article>
-            <img
-              class="image image-extra-margin"
-              src="./images/vossloh.png"
-              alt=""
-            />
+            <picture>
+              <source
+                media="(max-width:1023px)"
+                srcset="./images/vossloh.png?as=avif&width=375&height=375"
+                type="image/avif"
+              />
+              <source
+                media="(max-width:1023px)"
+                srcset="./images/vossloh.png?as=webp&width=375&height=375"
+                type="image/webp"
+              />
+              <source
+                media="(min-width:1024px)"
+                srcset="./images/vossloh.png?as=avif&width=316"
+                type="image/avif"
+              />
+              <source
+                media="(min-width:1024px)"
+                srcset="./images/vossloh.png?as=webp&width=316"
+                type="image/webp"
+              />
+              <img
+                class="image image-extra-margin"
+                src="./images/vossloh.png"
+                alt=""
+              />
+            </picture>
             <h3 class="header-after-hours">Quality control</h3>
             <p class="paragraph-after-hours">
               This is my current job, where I have gained skills in the
@@ -147,11 +180,33 @@
             </p>
           </article>
           <article>
-            <img
-              class="image image-extra-margin"
-              src="./images/rower.png"
-              alt=""
-            />
+            <picture>
+              <source
+                media="(max-width:1023px)"
+                srcset="./images/rower.png?as=avif&width=375&height=375"
+                type="image/avif"
+              />
+              <source
+                media="(max-width:1023px)"
+                srcset="./images/rower.png?as=webp&width=375&height=375"
+                type="image/webp"
+              />
+              <source
+                media="(min-width:1024px)"
+                srcset="./images/rower.png?as=avif&width=316"
+                type="image/avif"
+              />
+              <source
+                media="(min-width:1024px)"
+                srcset="./images/rower.png?as=webp&width=316"
+                type="image/webp"
+              />
+              <img
+                class="image image-extra-margin"
+                src="./images/rower.png"
+                alt=""
+              />
+            </picture>
             <h3 class="header-after-hours">Bike</h3>
             <p class="paragraph-after-hours">
               Outside of my regular working hours, I like to spend time
@@ -159,11 +214,33 @@
             </p>
           </article>
           <article>
-            <img
-              class="image image-extra-margin"
-              src="./images/triathlon.png"
-              alt=""
-            />
+            <picture>
+              <source
+                media="(max-width:1023px)"
+                srcset="./images/triathlon.png?as=avif&width=375&height=375"
+                type="image/avif"
+              />
+              <source
+                media="(max-width:1023px)"
+                srcset="./images/triathlon.png?as=webp&width=375&height=375"
+                type="image/webp"
+              />
+              <source
+                media="(min-width:1024px)"
+                srcset="./images/triathlon.png?as=avif&width=316"
+                type="image/avif"
+              />
+              <source
+                media="(min-width:1024px)"
+                srcset="./images/triathlon.png?as=webp&width=316"
+                type="image/webp"
+              />
+              <img
+                class="image image-extra-margin"
+                src="./images/triathlon.png"
+                alt=""
+              />
+            </picture>
             <h3 class="header-after-hours">Triathlon</h3>
             <p class="paragraph-after-hours">
               Challenging myself I tried my hand at triathlon, at this moment I
@@ -171,11 +248,33 @@
             </p>
           </article>
           <article>
-            <img
-              class="image image-extra-margin"
-              src="./images/programowanie.png"
-              alt=""
-            />
+            <picture>
+              <source
+                media="(max-width:1023px)"
+                srcset="./images/programowanie.png?as=avif&width=375&height=375"
+                type="image/avif"
+              />
+              <source
+                media="(max-width:1023px)"
+                srcset="./images/programowanie.png?as=webp&width=375&height=375"
+                type="image/webp"
+              />
+              <source
+                media="(min-width:1024px)"
+                srcset="./images/programowanie.png?as=avif&width=316"
+                type="image/avif"
+              />
+              <source
+                media="(min-width:1024px)"
+                srcset="./images/programowanie.png?as=webp&width=316"
+                type="image/webp"
+              />
+              <img
+                class="image image-extra-margin"
+                src="./images/programowanie.png"
+                alt=""
+              />
+            </picture>
             <h3 class="header-after-hours">Programming training</h3>
             <p class="paragraph-after-hours">
               Every day I try to learn new skills that will bring me closer to

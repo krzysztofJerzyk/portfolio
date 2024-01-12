@@ -1,7 +1,10 @@
 .image{
     width: 100%;
     margin-bottom: 1.25rem;
+    border-radius: 1.25rem;
 }
+
+
 
 .image-main{
     width: 21.438rem;
@@ -29,6 +32,9 @@
 }
 
 @media screen and (min-width: 768px){
+    .picture{
+        order: 2;
+    }
     .about-contain{
         max-width: 47rem;
     }
@@ -40,7 +46,6 @@
         align-items: center;
     }
     .image-main{
-        order: 2;
         width: 26rem;
     }
     .main__header{
