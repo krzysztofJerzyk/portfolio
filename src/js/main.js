@@ -6,7 +6,7 @@ const userName = 'krzysztofJerzyk'
 const direction = 'desc'
 const projectContainer = document.querySelector('.projects--js')
 
-fetch(`http://api.github.com/users/${userName}/repos?direction=${direction}`)
+fetch(`https://api.github.com/users/${userName}/repos?direction=${direction}`)
 .then(response => response.json())
 .then(response => {
     for(let repository of response){
