@@ -47,7 +47,7 @@ fetch(`http://api.github.com/users/${userName}/repos?direction=${direction}`)
               href="${homepage}"
               target="_blank"
               rel="noreferrer nofollow"
-              class="section__link section__link--special section__small section__link-special-padding"
+              class="section__link section__link--special section__small section__link-special-padding special__link-change-border-color"
               ><img class="special-size" src="${demo}" />View
               demo</a
             >
@@ -55,7 +55,7 @@ fetch(`http://api.github.com/users/${userName}/repos?direction=${direction}`)
               href="${html_url}"
               target="_blank"
               rel="noreferrer nofollow"
-              class="section__link section__link--special section__small section__link-special-padding"
+              class="section__link section__link--special section__small section__link-special-padding special__link-change-border-color"
               ><img class="special-size" src="${github}" />Source
               code</a
             >

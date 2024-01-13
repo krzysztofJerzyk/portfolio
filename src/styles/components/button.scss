@@ -1,3 +1,13 @@
+
+
+.special__link-change-color:hover{
+    background-color: #c2fc5e;
+}
+
+.special__link-change-border-color:hover{
+    border-color: $special;
+}
+
 .section__button{
     display: flex;
     flex-direction: column;
@@ -17,7 +27,21 @@
     border-radius: 0.625rem;
     font-size: 1.25rem;
     line-height: 2rem;
+    transition: background-color 0.5s ease-in-out;
+    will-change: background-color;
 }
+.section__link-small{
+    color: #020916;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.section__link--border{
+    border: 0.125rem solid $special;
+}
+
 .special-size{
     width: 1.5rem;
     height: 1.5rem;
@@ -27,6 +51,8 @@
     background-color: $background;
     color: $special;
     border: 0.125rem solid #1F2937;
+    transition: border-color 0.4s ease-in-out;
+    will-change: border-color;
 
 }
 
@@ -53,7 +79,7 @@
         align-items: center;
         flex-wrap: wrap;
     }
-    .section__link--biger-border{
+    .section__link--biger-radius{
         border-radius: 1.25rem;
     }
     .section__link-special-padding{
